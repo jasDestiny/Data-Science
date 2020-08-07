@@ -5,7 +5,7 @@ Steps in order to be followed to use this project
 
 STEP 1:
 
-Create a google form, just google "Google forms" and create it to get project details from students.
+Create a google form, just google "Google forms" and create it to get project details from students(same form for both morning and afternoon batches).
 
 STEP 2:
 
