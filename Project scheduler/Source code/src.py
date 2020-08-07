@@ -17,10 +17,13 @@ afternoon
 morning
 
 #creating list to set as columns
-days=[i for i in range(1,100,1) for j in range(1,10,1)]
+t=int(input("How much time per day"))
+tt=int(input("How much time per team(Note: Make sure it is a facor of previous input value)"))
+n=int(t/tt)
+days=[i for i in range(1,100,1) for j in range(1,n+1,1)]
 status=["Not yet done" for i in range(1,100,1)]
-startingTime=[i for j in range(0,100,1) for i in range(0,45,5)]
-endingTime=[i+5 for j in range(0,100,1) for i in range(0,45,5)]
+startingTime=[i for j in range(0,100,1) for i in range(0,t,tt)]
+endingTime=[i+5 for j in range(0,100,1) for i in range(0,t,tt)]
 
 #code to add 2 new columns
 afternoon["Day number"]=days[0:len(afternoon)]
