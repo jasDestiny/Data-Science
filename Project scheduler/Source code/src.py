@@ -18,7 +18,7 @@ morning
 
 #creating list to set as columns
 t=int(input("How much time per day"))
-tt=int(input("How much time per team(Note: Make sure it is a facor of previous input value)"))
+tt=int(input("How much time per team(Note: Make sure it is a factor of previous input value)"))
 n=int(t/tt)
 days=[i for i in range(1,100,1) for j in range(1,n+1,1)]
 status=["Not yet done" for i in range(1,100,1)]
