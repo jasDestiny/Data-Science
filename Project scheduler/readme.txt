@@ -25,7 +25,7 @@ Clone this repo and open it in local machine
 
 STEP 6:
 
-Copy paste the .csv file in the same directory as the .ipynb file
+Copy paste the .csv file obtained from google forms in the same directory as the Project scheduling.ipynb file
 
 STEP 7:
 
@@ -33,4 +33,4 @@ Run the .ipynb file from jupyter notebook
 
 STEP 8:
 
-Use the Morning and Afternoon file. It contains schedule details. Job Done!
+Use the Morning.csv and Afternoon.csv file. It contains schedule details. Job Done!
