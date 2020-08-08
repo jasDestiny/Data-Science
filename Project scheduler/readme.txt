@@ -17,7 +17,7 @@ Once everyone had submitted responses, export the file as .csv(It can be found a
 
 STEP 4:
 
-Install jupyter notebook in laptop, if you don't have it already installed
+Install jupyter notebook in your device, if you don't have it already installed
 
 STEP 5:
 
